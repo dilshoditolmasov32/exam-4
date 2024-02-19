@@ -44,6 +44,16 @@ button {
   z-index: 100;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .header-menu {
+  padding-top: 114px;
+}
+
 #backtop img {
   width: 36px;
 }
@@ -178,6 +188,10 @@ button {
   background: rgba(160, 83, 83, 0.0784313725);
 }
 
+.about-header .header-menu {
+  background-color: #ffffff;
+  z-index: 10;
+}
 .about-header .header-menu .hero-section {
   display: flex;
   justify-content: space-between;
@@ -268,6 +282,7 @@ button {
 }
 .section-one .main-section-hero {
   display: flex;
+  padding-top: 150px;
   gap: 80px;
 }
 .section-one .main-section-hero .house-text {
